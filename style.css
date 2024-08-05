@@ -1,0 +1,651 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    overflow-x: hidden;
+
+}
+.container{
+    width: 100%;
+}
+.headerhero{
+    background-image: url(images/heroBack.png);
+    background-repeat:no repeat ;
+    background-size:cover;
+}
+header{
+ display: flex;
+ justify-content: space-between;  
+ margin: auto;
+ align-items:center;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+li{
+    color: white;
+    list-style: none !important;
+    cursor: pointer;
+    font-family: roboto;
+}
+
+form input{
+    border-radius: 39px;
+    padding: 1rem;
+    border: none;
+}
+
+nav button{
+    border-radius:  39px;
+    padding: 1rem 2rem;
+    background-color: white;
+    color: rgba(239,39,121,1);
+    border: none;
+    cursor: pointer;
+    font-family: roboto;
+    font-size: 16px;
+margin-left: -1rem;
+}
+nav button:hover{
+    background: rgba(56,163,241,0.8);
+    color: #fff;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.heroText h2{
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 65.5px;
+    color: rgba(255,255, 255, 1);
+}
+.heroText p{ 
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgba(255,255,255,0.8);
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.heroText button{
+    font-family: roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px; 
+    border-radius: 35px;
+    background: #fff;
+    color: rgba(56,163,241,1);
+    padding: 1rem 2.5rem;
+    border: none;
+    cursor: pointer;
+}
+ 
+.heroText button:hover{
+    background: rgba(56,163,241,0.8);
+    color: #fff;
+}
+
+.features{
+    width: 70%;
+    margin: auto; 
+    margin-bottom: 4rem;
+}
+.topfeatures{
+    text-align: center;
+}
+.topfeatures h5{
+font-family: Roboto;
+font-size: 22px;
+font-weight: 700;
+line-height: 33px;
+}
+.topfeatures h2{
+font-family: Roboto;
+font-size: 46px;
+font-weight: 400;
+line-height: 57px;
+padding: 1rem 0rem;
+}
+.topfeatures p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+width: 30%;
+margin: auto;
+margin-bottom: 4rem;
+}
+
+
+.flexfeature{
+    display: flex;
+    gap: 3rem;
+}
+.wrapflex{
+    display: flex;
+    /* gap: 1rem; */
+    align-items: center;
+}
+.wrapImage{
+    width: 20%
+}
+.wraptext{
+width:80%;
+font-size: 18px;
+font-weight: 700;
+width:70%;
+}
+.wraptext h3{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    width: 70%;
+}
+
+.wrap p{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+}
+.prototype{
+    width:80%;
+    margin: auto;
+}
+.proyotypeImage img{
+    width: 100%;
+}
+.prototypetext{
+    text-align: center;
+    width: 50%;
+    margin:auto;
+}
+.prototypetext h2{
+font-family: Roboto;
+font-size: 46px;
+font-weight: 400;
+line-height: 50px;
+width: 70%;
+margin: auto;
+} 
+.prototypetext p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+width: 55%;
+margin: auto;
+padding: 1rem 0rem;
+}
+
+.prototypetext button{
+    padding:0.7rem 2rem;
+    border-radius: 50px;
+    border:none;
+    background: rgba(56,163,241,1);
+    color:#fff;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-top: 2rem;
+}
+
+.lightprototypeText{
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+}
+.lightprototypeText h5{
+font-family: Roboto;
+font-size: 22px;
+font-weight: 700;
+line-height: 33px;
+text-align: center;
+color: #fff;
+margin-top: 2rem;
+}
+
+.lightprototypeText p{
+font-family: Roboto;
+font-size: 46px;
+font-weight: 400;
+line-height: 57px;
+height: 100%;
+text-align: center;
+color: #fff;
+}
+.lightprototypeText h3{
+font-family: Roboto;
+font-size: 22px;
+font-weight: 700;
+line-height: 33px;
+text-align: center;
+margin-top: 2rem;
+color: #fff;
+}
+.lightprototypeText h2{
+font-family: Roboto;
+font-size: 22px;
+font-weight: 800;
+line-height: 33px;
+text-align: center;
+color: #fff;
+margin-top: 4rem;
+margin-bottom:-2rem;
+}
+.lightprototypeText button{
+width: 353px;
+background: rgba(239, 39, 121, 1);
+font-family: roboto;
+font-size: 16px;
+font-weight:500;
+line-height: 33px; 
+border-radius: 35px;
+padding: 1rem 2.5rem;
+border: none;
+cursor: pointer;
+text-align: center;
+margin-left: 38%;
+margin-top: 1rem;
+color:#fff;
+margin-bottom: 3rem;
+}
+.lightprototypeText button:hover{
+    background:#7834BE;
+    color: #fff;
+}
+.lightprototypeText form input{
+width: 353px;
+height:  54px;
+padding: 1rem;
+gap: 47px;
+border-radius: 35px;
+border: none;
+margin-left: 38%;
+margin-top: 1rem;
+}
+
+.partners{
+    width: 60%;
+    margin: auto;
+}
+ 
+.topPartners{
+    text-align: center;
+}
+
+.topPartners h2{
+font-family: Roboto;
+font-size: 46px;
+font-weight: 400;
+line-height: 57px;
+text-align: center;
+padding-bottom: 1rem;
+margin-top: 2rem;
+}
+.topPartners p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 33px;
+text-align: center;
+width:35%;
+margin: auto;
+margin-top: 2rem;
+}
+.clientflex{
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    margin-bottom: 4rem;
+} 
+.clientimage{
+    margin: 2rem,0;
+}
+.client p{
+ font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 33px;
+text-align: center;
+width: 80%;
+margin:auto;
+}
+
+.partnerbtn{
+    text-align: center;
+}
+.partnerbtn button{
+    padding:0.7rem 2rem;
+    border-radius: 50px;
+    border:none;
+    background: rgba(56,163,241,1);
+    color:#fff;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.partnerbtn button:hover{
+    background:blue;
+    color: #fff;
+}
+
+.clients h6{
+width: Hug (88px)px;
+height: Hug (38px)px;
+padding: 3rem 0;
+}
+.testimonial h2{
+font-family: Roboto;
+font-size: 46px;
+font-weight: 400;
+line-height: 57px;
+text-align: center;
+margin: auto;
+margin-top: 8rem;
+margin-bottom: 5rem;
+}
+.testimage{
+width: 229px;
+height: 100%;
+margin: auto;
+text-align: center;
+margin-bottom: 2rem;
+}
+.para p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+text-align: center;
+margin: auto;
+width: 703px;
+margin-bottom: 2rem;
+}
+.orgimage{
+width: Hug (152px)px;
+height: Hug (50px)px;
+gap: 13px;
+margin: auto;
+text-align: center;
+margin-top: 3rem;
+margin-bottom: 3rem;
+}
+.orgbtn{
+    text-align: center;
+}
+.para button{
+    padding:0.7rem 2rem;
+    border-radius: 50px;
+    border:none;
+    background: rgba(56,163,241,1);
+    color:#fff;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.orgbtn :hover{
+    background: rgba(2, 34, 56, 0.8);
+    color: #fff;
+}
+.pricing{
+    width:80%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.toppricing{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.pricingCards{
+    display: flex;
+    gap: 2rem;
+}
+.pricecard{
+    width:100%;
+height: 50vh;
+padding: 2rem;
+gap: 2rem;
+border-radius: 10px 0px 0px 0px;
+border: 1px solid rgba(222, 222, 222, 1);
+box-shadow: 0px 23px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.free h5{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+    
+}
+.free p{
+font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+}
+.amount{
+    display: flex;
+    gap:0.5rem;
+    margin-top: 4rem;
+}
+
+.zero h1{
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 65.5px;
+}
+.dollar h4{
+font-family: Roboto;
+font-size: 22px;
+font-weight: 700;
+/* line-height: 65.5px; */
+}
+.dolar h6 {
+font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 65.5px;
+}
+
+.pricebtn button{
+    padding:0.7rem 2rem;
+    border-radius: 50px;
+    border:none;
+    background: rgba(56,163,241,1);
+    color:#fff;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin: auto;
+    cursor: pointer;
+    width:100%;
+    margin-top: 2rem;
+}
+    .pricebtn button:hover{
+        background:#fff;
+        color: rgba(239, 39, 121, 1);
+
+    }
+
+.toppricing h2{
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 57px;
+    text-align: center;
+    padding-bottom: 1rem;
+    }
+    .toppricing p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    width:35%;
+    margin: auto;
+    margin-top: 2rem;
+    }
+    .pricecard:hover{ 
+        background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+        color: #fff;
+    }
+    .contact{
+        background: rgba(37, 43, 66, 1);
+        width: 100%;
+        margin: auto;
+        padding:4rem 0;
+    }
+    .topcontact{
+        text-align: center;
+        width:60%;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+    .topcontact h2{
+        font-family: Roboto;
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 57px;
+        text-align: center;
+        padding-bottom: 1rem;
+        color:#fff
+        }
+        .topcontact p{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 33px;
+        text-align: center;
+        width:35%;
+        margin: auto;
+        margin-top: 2rem;
+        color:#fff
+        }
+
+.contactflex{
+    width:60%;
+    margin: auto;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+.contactform{
+    box-shadow: 0px 8.5px 12.42px 0px rgba(0, 0, 0, 0.07);
+    width: 50%;
+    border-radius: 10px;
+    padding: 3rem;
+    background: #fff;
+}
+.contactform input{
+    width: 100%;
+    margin-bottom: 1rem;
+    background: rgba(232, 232, 232, 1);
+    color: black;
+    font-family: roboto;
+}
+.message{
+    width: 100%;
+    margin-bottom: 1rem;
+    background: rgba(232, 232, 232, 1);
+    padding-bottom: 7rem;
+    border-radius: 0px;
+    color: rgba(24, 23, 29, 1);
+    font-family: roboto;
+}
+.contactform button{
+    background: rgba(239, 39, 121, 1);
+    color:#fff;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-family: roboto;
+    border-radius: 50px;
+}
+.contactform button:hover{
+color:  rgba(239, 39, 121, 1);
+background: #fff;
+border: 1px solid  rgba(239, 39, 121, 1);
+}
+.address{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.address p{
+font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+color: #fff;
+}
+.socials{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+.ads{
+    width: 75%;
+}
+footer{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    /* gap: 3rem; */
+    padding: 4rem 0;
+    justify-content: space-between;
+}
+.pages li{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    color: black;
+    padding-bottom: 1rem;
+}
+.pages h4{
+font-family: Roboto;
+font-size: 22px;
+font-weight: 700;
+line-height: 33px;
+}
+.pages{
+    width: 15%;
+}
+
+.footimage{
+    width: 35%;
+    margin-top: 2rem;
+}
+.location1{
+    width: 30%;
+}
+.addresstext1 p{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: black;
+  }
+.ads1{
+ width: 95%;
+}   
+.footimage img{
+    width: 100%;
+}
