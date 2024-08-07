@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    overflow-x: hidden;
+
+}
+.container{
+    width: 100%;
+}
+.headerhero{
+    background-image: url(images/heroback2.png);
+    background-repeat:no repeat ;
+    background-size:cover;
+
+}
+header{
+ display: flex;
+ justify-content: space-between;  
+ margin: auto;
+ align-items:center;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+li{
+    color: white;
+    list-style: none !important;
+    cursor: pointer;
+    font-family: roboto;
+}
+
+form input{
+    border-radius: 39px;
+    padding: 1rem;
+    border: none;
+}
+
+nav button{
+    border-radius:  39px;
+    padding: 1rem 2rem;
+    background-color: white;
+    color: rgba(239,39,121,1);
+    border: none;
+    cursor: pointer;
+    font-family: roboto;
+    font-size: 16px;
+margin-left: -1rem;
+}
+nav button:hover{
+    background: rgba(56,163,241,0.8);
+    color: #fff;
+}
+.hero{
+    text-align: center;
+    padding: 7rem 0;
+}
+.herotop h2{
+font-family: Roboto;
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+color:#fff;
+}
+.herotop p{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
+    color:#fff;
+    width:50%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.herotop button{
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.herotop button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+    
+.herosocials{
+    margin:3rem 0;
+
+}
+    
+.herosocials h5{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff;
+    margin-bottom: 1rem;
+}
+.handles{
+    gap: 1rem;
+    justify-content: center;
+}
