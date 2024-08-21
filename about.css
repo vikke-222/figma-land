@@ -93,8 +93,7 @@ color:#fff;
 }
     
 .herosocials{
-    margin:3rem 0;
-
+    margin: 3rem 0;
 }
     
 .herosocials h5{
@@ -107,4 +106,216 @@ color:#fff;
 .handles{
     gap: 1rem;
     justify-content: center;
+}
+.insight{
+    width: 75%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.insighttext{
+    width: 50%
+}
+.insightimage{
+    width: 35%;
+ /* box-shadow: 0px 8px 9px -5px rgba(20, 20, 20, 0.06); */
+
+box-shadow: 0px 8px 26px -4px rgba(20, 20, 20, 0.15);
+padding: 1rem;
+
+}
+.boxes{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.box h4{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 600;
+padding: 1rem 0;
+}
+.box p{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+color:  rgba(103, 116, 142, 1);
+}
+.insightimage h4{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 600;
+padding: 1rem 0;
+}
+.insightimage p{
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+color:  rgba(103, 116, 142, 1);
+}
+.imagery img{
+    width: 100%;
+}
+.executive{
+    background-image: url(./images/teamback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-bottom: 4rem; */
+    padding-top: 8rem;
+}
+.topexecutive{
+    width: 70%;
+    margin:auto;
+    margin-bottom: 2rem;
+
+}
+.executivecards{
+    width: 70%;
+    margin:auto;
+}
+.cards{
+    gap: 1rem;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.card{
+    background: #fff;
+    padding: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+
+}
+.cardimage img{
+    width: 100%;
+
+}
+.topexecutive h4{
+    color: #fff;
+font-family: Roboto;
+font-size: 30px;
+font-weight: 700;
+}
+.topexecutive p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: #fff;
+}
+.cardtext h4{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cardtext h6{
+color: rgba(23, 193, 232, 1);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 600;
+}
+.cardtext p{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+color: rgba(103, 116, 142, 1);
+
+}
+.wrap{
+    width: 100%;
+    color: rgba(248, 249, 250, 1);
+    padding-top: 3rem;
+
+}
+.sponsors{
+    width: 75%;
+    margin:auto;
+    display: flex;
+    gap: 5rem;
+}
+
+.sponsorimage img{
+    width: 100%;
+}
+.project{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem; 
+}
+.support h2{
+    font-family:  Roboto;
+    font-size: 48px;
+    font-weight: 700px;
+    color:  blue;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+.support h6{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+.support p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(103, 116, 142, 1);
+    text-align: center;
+}
+.news{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+    align-items: center;
+}
+.newsimage img{
+    width: 100%;
+}
+.newstext{
+    width: 50%;
+}
+.newsimage{
+    width: 50%;
+}
+.newstext h3{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+}
+.newstext p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(103, 116, 142, 1);
+    padding: 1rem 0;
+}
+
+.subscribe input{
+    border:  1px solid rgba(210, 214, 218, 1);
+    padding: .7rem 1rem;
+    border-radius: 8px;
+    width: 70%;
+}
+.subscribe button{
+    width: 25%;
+    padding: .7rem 1rem;
+    border: none;
+    cursor: pointer;
+    background:  linear-gradient(135deg, #21D4FD 0%, #2152FF 100%);
+    color: #fff;
 }

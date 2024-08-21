@@ -93,7 +93,7 @@ nav button:hover{
  
 .heroText button:hover{
     background: rgba(56,163,241,0.8);
-    color: #fff;
+    color: white !important;
 }
 
 .features{
