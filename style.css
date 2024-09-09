@@ -48,7 +48,7 @@ nav button{
     cursor: pointer;
     font-family: roboto;
     font-size: 16px;
-margin-left: -1rem;
+    margin-left: -1rem;
 }
 nav button:hover{
     background: rgba(56,163,241,0.8);
@@ -57,9 +57,20 @@ nav button:hover{
 .hero{
     display: flex;
     align-items: center;
-    gap: 5rem;
+    /* gap: 5rem; */
 }
-
+.heroimage img{
+    width: 100%;
+}
+.heroText{
+    width: 45%;
+    margin: auto;
+}
+.heroimage{
+    width: 60%;
+    margin: auto;
+    margin-top: 5rem;
+}
 .heroText h2{
     font-family: Roboto;
     font-size: 55px;
@@ -73,7 +84,7 @@ nav button:hover{
     font-weight: 400;
     line-height: 35px;
     color: rgba(255,255,255,0.8);
-    width: 60%;
+    width: 55%;
     padding-top: 1rem;
     padding-bottom: 3rem;
 }
@@ -138,13 +149,13 @@ margin-bottom: 4rem;
     align-items: center;
 }
 .wrapImage{
-    width: 20%
+    width: 30%
 }
 .wraptext{
-width:80%;
+width:95%;
 font-size: 18px;
 font-weight: 700;
-width:70%;
+margin-bottom: 1rem;
 }
 .wraptext h3{
     font-family: Roboto;
@@ -157,6 +168,7 @@ width:70%;
 font-family: Roboto;
 font-size: 18px;
 font-weight: 400;
+line-height: 25px;
 }
 .prototype{
     width:80%;
@@ -174,7 +186,7 @@ font-weight: 400;
 font-family: Roboto;
 font-size: 46px;
 font-weight: 400;
-line-height: 50px;
+line-height: 55px;
 width: 70%;
 margin: auto;
 } 
@@ -185,7 +197,7 @@ font-weight: 400;
 line-height: 25px;
 width: 55%;
 margin: auto;
-padding: 1rem 0rem;
+/* padding: 1rem 0rem; */
 }
 
 .prototypetext button{
@@ -240,38 +252,44 @@ color: #fff;
 margin-top: 4rem;
 margin-bottom:-2rem;
 }
-.lightprototypeText button{
-width: 353px;
-background: rgba(239, 39, 121, 1);
-font-family: roboto;
-font-size: 16px;
-font-weight:500;
-line-height: 33px; 
-border-radius: 35px;
-padding: 1rem 2.5rem;
-border: none;
-cursor: pointer;
-text-align: center;
-margin-left: 38%;
-margin-top: 1rem;
-color:#fff;
-margin-bottom: 3rem;
+.bttn{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin: 1rem;
 }
-.lightprototypeText button:hover{
+.lightprototype button{
+ width: 353px;
+ background: rgba(239, 39, 121, 1);
+ font-family: roboto;
+ font-size: 16px;
+ font-weight:500;
+ line-height: 33px; 
+ border-radius: 35px;
+ padding: 1rem 2.5rem;
+ border: none;
+ cursor: pointer;
+ text-align: center;
+ margin-top: 1rem;
+ color: #fff;
+ margin-bottom: 3rem;
+ margin: auto;
+}
+.lightprototype button:hover{
     background:#7834BE;
     color: #fff;
 }
 .lightprototypeText form input{
-width: 353px;
-height:  54px;
-padding: 1rem;
-gap: 47px;
-border-radius: 35px;
-border: none;
-margin-left: 38%;
-margin-top: 1rem;
+  width: 353px;
+  height:  54px;
+  padding: 1rem;
+  gap: 47px;
+  border-radius: 35px;
+  border: none;
+  margin-top: 1rem;
 }
-
+form{
+    text-align: center;
+}
 .partners{
     width: 60%;
     margin: auto;
@@ -309,10 +327,10 @@ margin-top: 2rem;
 .clientimage{
     margin: 2rem,0;
 }
-.client p{
+.clients p{
  font-family: Roboto;
 font-size: 16px;
-font-weight: 700;
+font-weight: 500;
 line-height: 33px;
 text-align: center;
 width: 80%;
@@ -339,9 +357,11 @@ margin:auto;
 }
 
 .clients h6{
-width: Hug (88px)px;
-height: Hug (38px)px;
-padding: 3rem 0;
+width: 88px;
+height: 38px;
+/* padding: 3rem 0; */
+margin: auto;
+margin-top: 1rem;
 }
 .testimonial h2{
 font-family: Roboto;
@@ -414,7 +434,7 @@ margin-bottom: 3rem;
     gap: 2rem;
 }
 .pricecard{
-    width:100%;
+ width:100%;
 height: 50vh;
 padding: 2rem;
 gap: 2rem;
@@ -428,7 +448,7 @@ box-shadow: 0px 23px 19px 0px rgba(0, 0, 0, 0.07);
     font-weight: 700;
     line-height: 33px;
     text-align: left;
-    
+  
 }
 .free p{
 font-family: Roboto;
@@ -545,11 +565,9 @@ line-height: 65.5px;
     align-items: center;
 }
 .contactform{
-    box-shadow: 0px 8.5px 12.42px 0px rgba(0, 0, 0, 0.07);
-    width: 50%;
+    background-color: #fff;
     border-radius: 10px;
-    padding: 3rem;
-    background: #fff;
+    padding: 2rem;
 }
 .contactform input{
     width: 100%;
@@ -630,7 +648,7 @@ line-height: 33px;
 }
 
 .footimage{
-    width: 35%;
+    width: 40%;
     margin-top: 2rem;
 }
 .location1{
@@ -658,4 +676,316 @@ a{
 
 a:hover{
     color: yellow;
+}
+
+@media screen and (max-width: 1024px){
+    .nav button{
+        padding: 1rem;
+    }
+
+    .heroText p{ 
+        width: 80%;
+    }
+    .flexfeatures{
+        gap: 1rem;
+    }
+    .wraptext h3{
+      width: 90%;
+    }
+    .wrap p{
+        font-size: 16px;
+    }
+    .prototypetext p{
+        width: 75%;
+    }
+    .topPartners p{
+        width:50%;
+     }
+    .clients p{
+        width: 100%;
+    }
+    .topcontact p{
+        width: 50%;
+    }
+    .ads p{
+        width: 80%;
+    }
+    .footimage{
+        width: 40%;
+    }
+    .ads1{
+        width: 100%;
+    }
+    .adresstext1 p{
+        font-size: 10px;
+    }
+    .pages{
+    width: 25%;
+    }
+}
+@media screen and (max-width: 768px){
+    nav{
+       display: none;
+    }
+
+    .heroimage{
+        width: 60%;
+        margin-top: 2rem;
+   }
+    .heroText{
+        width: 40%;
+    }
+    .heroText h2{
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 40.5px;
+    }
+    .heroText p{ 
+        width: 90%;
+        font-size: 600;
+        padding-bottom: 1rem;
+    }
+    .heroText button{
+        font-size: 22px;
+        padding: 0.7rem 2rem;
+    }
+    .topfeatures p{
+        width: 58%;
+    }
+   .wrapflex{
+       gap: 0.5rem;
+    }
+    .wrapImage{
+        width: 40%
+    }
+    .wraptext{
+    width:80%;
+    }
+    .wraptext h3{
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    .wraptext p{
+    font-size: 14px;
+    }
+    .prototypetext h2{
+        font-size: 44px;
+        line-height: 60px;
+        width: 90%;
+    } 
+    .prototypetext p{
+        width: 95%;
+    }
+    .prototypeImage img{
+     width: 100%;
+    }
+    .topPartners p{
+        width: 65%;
+    } 
+    .clientflex{
+     gap: 2rem;
+    }
+    .clientimage{
+     margin: 1rem 0;
+    }
+    .clients p{
+        font-size: 14px;
+        width: 100%
+    }
+    .partners{
+        width: 70%;
+        margin: auto;
+    }c
+    .toppricing p{
+        width: 53%;
+    }
+    .pricecard{
+      padding: 1rem;
+      gap: 1rem;
+    }
+    .free p{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+     }
+
+    .topcontact p{
+        width: 70%;
+     }
+     .contactform input{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px){
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .heroText{
+     width: 90%;  
+     margin: auto;
+     text-align: center; 
+     margin-top: 5rem; 
+    }
+    .heroimage{
+        width: 90%;
+        margin: auto;
+        margin-top: -23rem;
+        position: absolute;
+    }
+    
+    .heroText h2{
+        font-family: Roboto;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 60px;
+    }
+    .heroText p{ 
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 35px;
+        color: rgba(255,255,255,0.8);
+        width: 80%;
+        margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+    
+    .heroText button{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 33px; 
+        border-radius: 35px;
+        background: #fff;
+        color: rgba(56,163,241,1);
+        padding: 0.5rem 2.5rem;
+        margin-top: 17rem;
+    }
+    .heroText button:hover{
+        background:  rgba(56,163,241,1); 
+        color: #fff;  
+    }
+    .topfeatures p{
+     width: 100%;
+    }
+    .flexfeature{
+     display: block;
+    }
+    .wrapflex{
+        width:100%;
+    }
+    .wrap{
+        width: 75%;
+        margin: auto;
+        margin-bottom: 3rem;
+
+    }
+    .wrapImage{  
+        width: 20%
+    }
+    .wraptext{
+        width: 80%;
+    }
+    .prototypetext{
+        text-align: center;
+        width: 85%;
+        margin:auto;
+    }
+
+    .prototypetext h2{
+        width: 90%;
+        font-size: 25px;
+    }
+    .prototypetext p{
+        width: 95%;
+        font-size: 15px;
+    }
+    .prototypeImage{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .prototypeImage img{
+        width: 100%;
+    }
+    .topPartners p{
+        width: 100%;
+    } 
+    .clientflex{
+        display: block;
+    }
+    .clients p{
+       width: 50%;
+       margin:auto;
+       font-weight: 50px;
+    }
+    .toppricing p{
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: center;
+        width:90%;
+        
+    }
+    .pricingCards{
+        display: block;
+    }
+    .pricecard{
+        padding: 2rem;
+        height: 60vh;
+        margin-bottom: 3rem;
+    }
+    .topcontact p{
+        width: 90%;
+        font-size: 14px;
+    }
+    .contactflex{
+        width:60%;
+        margin: auto;
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .contactform{
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+        padding: 3rem;
+        width: 100%;
+    }
+    .location{
+        width: 80%;
+        margin: auto;
+    }
+    footer{
+        width: 90%;
+        margin: auto;
+        display: block;
+        padding: 4rem 0;
+    }
+    .pages{
+        width: 100%;
+        text-align: center;
+    }
+    .footimage{
+        width: 100%;
+        margin: 4rem 0;
+    }
+    .location{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 375px){
+.wrap{
+    width: 85%;
+}
+.topcontact{
+    font-size: 40px;
+}
 }
